@@ -20,11 +20,25 @@ public class Main
         //Task 1
         int[] dataPoints = new int[ARRAY_LENGTH];
 
+        for(int c = 0; c < dataPoints.length; c++)
+        {
+            System.out.print("" + dataPoints[c]);
+        }
+        System.out.println();
+        System.out.println();
+
         //Task 2
         for(int e = 0; e < dataPoints.length; e++)
         {
             dataPoints[e] = rnd.nextInt(100) + 1;
         }
+
+        for(int d = 0; d < dataPoints.length; d++)
+        {
+            System.out.print("" + dataPoints[d] + " ");
+        }
+        System.out.println();
+        System.out.println();
 
         //Task 3
         for(int x = 0; x < dataPoints.length; x++)
