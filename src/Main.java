@@ -17,6 +17,7 @@ public class Main
         int minimum = 0;
         int maximum = 0;
 
+
         //Task 1
         int[] dataPoints = new int[ARRAY_LENGTH];
 
