@@ -95,8 +95,30 @@ public class Main
         }
         System.out.println("\nThe minimum value in the random array dataPoints is " + minimum + ".");
         System.out.println("\nThe maximum value in the random array dataPoints is " + maximum + ".");
+
+        //Task 9
+        System.out.println("\nAverage of dataPoints is: " + getAverage(dataPoints));
     }
 
+    /**
+     * Retrieves an array of ints from the programmer and returns the average of the array as a double
+     *
+     * @param values an array of integers input by the programmer
+     * @return a double value representing the average of the array input
+     */
 
+    //Task 9
+    public static double getAverage(int values[])
+    {
+        int sum = 0;
+        double avg = 0;
 
+        for(int b = 0; b < values.length; b++)
+        {
+            sum = sum + values[b];
+        }
+        avg = (double) sum / values.length;
+
+        return avg;
+    }
 }
