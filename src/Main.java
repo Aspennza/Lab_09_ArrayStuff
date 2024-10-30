@@ -9,7 +9,7 @@ public class Main
         Random rnd = new Random();
         Scanner in = new Scanner(System.in);
         int sum = 0;
-        double avg = 0;
+        double avg = 0.0;
         int userValue = 0;
         boolean foundUserValue1 = false;
         boolean foundUserValue2 = false;
@@ -111,7 +111,7 @@ public class Main
     public static double getAverage(int values[])
     {
         int sum = 0;
-        double avg = 0;
+        double avg = 0.0;
 
         for(int b = 0; b < values.length; b++)
         {
